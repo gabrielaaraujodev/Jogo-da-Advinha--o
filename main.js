@@ -20,7 +20,7 @@ function handleTryClick(loadPage) {
   // ---------------------------------------
   const inputNumber = document.querySelector("#inputNumber")
 
-  if (Number(inputNumber.value) == '') {
+  if (Number(inputNumber.value) === '') {
     alert('Por favor, insira um número')
     return
   }
